@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: content-box;
 }
-main{
-    margin: 0.1%;
-}
+
 
 header{
     height: 70vh;
@@ -86,8 +84,9 @@ li a:hover {
 }
 
 .sec1{
+    height: 10vh;
     display: flex;
-    background-color: black;
+    background-color: rgb(51, 50, 50);
     justify-content: space-between;
 }
 .textos{
@@ -99,37 +98,6 @@ li a:hover {
 .imagesMostrar{
     height: 400px;
     width: 20%;
-}
-.botones{
-    border: none; 
-    padding: 14px 28px; 
-    font-size: 16px;
-    border-radius: 5px; 
-    background-color: #ff5069;
-}
-
-.titulos{
-    background: linear-gradient(to right, red, blue);
-    -webkit-background-clip: text; 
-    background-clip: text; 
-    color: transparent; 
-}
-
-.guitar{
-    height: 80vh;
-    background-image: url(../assets/imagenes/sec3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
-.textoblanco{
-    color: white;
-    width: 40%;
-    justify-content: flex-end;
 }
 
 footer {
