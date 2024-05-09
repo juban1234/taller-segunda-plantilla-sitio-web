@@ -81,19 +81,13 @@ li a:hover {
     text-decoration: underline; 
 }
 
-
-
-
-
-
-
-
 .colorLetra{
     color: white;
 }
+
 .sec1{
     display: flex;
-    margin: 20px 250px;
+    background-color: black;
     justify-content: space-between;
 }
 .textos{
