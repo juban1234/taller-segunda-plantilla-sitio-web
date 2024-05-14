@@ -83,40 +83,42 @@ li a:hover {
 
 .sec1{
     height: 10vh;
-    display: flex;
+    display: flex; 
+    justify-content: space-around;
     background-color: rgb(51, 50, 50);
-    align-content: center;
-}
-
-#input{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    padding: 0px 10px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: flex-start;
 }
 
 #subscribete{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     color: white;
     padding: 30px 20px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#input{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .btn {
-    display: flex;
     border: none; 
     background-color: #d14b0d;
     color: rgb(255, 255, 255); 
-    padding: 0px 0px; 
+    padding: 0px 10px; 
     cursor: pointer; 
     border-radius: 5px; 
-    width: 150px;
-    height: 50px;
+    width: 150px 50px;
+    height: 25px;
   }
 
 
