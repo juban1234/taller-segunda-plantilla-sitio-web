@@ -94,6 +94,20 @@ li a:hover {
 
 }
 
+#subscribete{
+    color: white;
+    padding: 30px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
 
 .imagesMostrar{
     height: 400px;
