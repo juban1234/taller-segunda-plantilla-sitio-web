@@ -73,10 +73,6 @@ li a {
     color: #ffffff; 
 }
 
-li a:hover {
-    text-decoration: underline; 
-}
-
 .colorLetra{
     color: white;
 }
@@ -123,12 +119,37 @@ li a:hover {
 
 .sec2{
     background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: space-between;
 }
+
 
 .lista{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 80px 100px;
+    height: 30vh;
+    width: 100%;
+}
+
+#sec1Text{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px;
+    height: 100px;
+    width: 100px;
+}
+
+.activo{
+    color: rgb(0, 119, 255);
 }
 
 footer {
