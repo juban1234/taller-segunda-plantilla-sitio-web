@@ -49,7 +49,7 @@ nav {
     color: #ffffff;
     padding: 0px 18px;
 }
-#textocolor{
+#textocolor1{
     color: #0014c9;
     padding: 0px 6px;
     font-family: Arial, Helvetica, sans-serif;
@@ -160,3 +160,46 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.sec3{
+    margin: 0px 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+}
+.textoSec3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 80%;
+    height: 30%;
+}
+
+#textolateral{
+    width: 20%;
+    height: auto;
+    margin: 50px 50px ;
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 20px ;
+    background-color: #4d4a4a;
+    color: white;
+}
+
+#textocolor{
+    width: 60%;
+    background-color: #4d4a4a;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagenFondo{
+    padding: 10px 0px;
+    width:63.50% ;
+}
+
+
