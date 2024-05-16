@@ -119,28 +119,10 @@ li a:hover {
     border-radius: 5px; 
     width: 150px 50px;
     height: 25px;
-  }
-
-
-footer {
-    background-color: #ff5069;
-    color: #fff;
-    padding: 20px;
 }
 
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
+.sec2{
+    background-color: rgb(255, 255, 255);
 }
 
 .lista{
@@ -149,7 +131,11 @@ footer ul li a {
     margin: 80px 100px;
 }
 
-.derechos{
+footer {
+    background-color: #408cff;
+    color: #fff;
+    padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
