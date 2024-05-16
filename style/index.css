@@ -201,6 +201,10 @@ footer {
     padding: 10px 0px;
     width:63.50% ;
 }
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
 .sec4{
     background-color: rgb(255, 255, 255);
     padding: 2px 20px;
@@ -218,3 +222,6 @@ footer {
     height: 20%;
 }
 
+#servicios{
+    padding: 10px 120px;
+}
